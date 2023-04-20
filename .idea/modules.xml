@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ajax/Ajax.iml" filepath="$PROJECT_DIR$/Ajax/Ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
     </modules>
   </component>
 </project>

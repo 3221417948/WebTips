@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test01">
+
+    <!--
+                                 sql语句必须要写在相应的标签当中
+                                <insert.>:在标签对中写insert开头的sgl语句处理添加操作
+                                 <update.>:在标签对中写update开头的sgL语句处理修改操作
+                               <delete>:在标签对中写delete开头的sql语句处理删除操作
+                             <select>.:在标签对中写select开头的sgL语句处理查询操作
+                             parameterType:为sql语句传递的参数的类型
+                             resultType:返回语句的的对象
+    -->
+
+    <select id="getById" parameterType="java.lang.String" resultType="domain.Student">
+        select * from tbl_student where id=#{id}
+    </select>
+
+
+</mapper>
